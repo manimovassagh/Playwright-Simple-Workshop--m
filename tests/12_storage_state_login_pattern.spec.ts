@@ -18,13 +18,10 @@ test.describe('storage state pattern', () => {
   test.use({ storageState: './auth-state.json' });
 
   test('user is considered logged in', async ({ page }) => {
-  await page.context().addCookies([{ name: 'auth', value: '1', domain: 'localhost', path: '/' }]);
-    await page.setContent(`
-      <div id="status"></div>
-      <script>
-        document.getElementById('status').textContent = document.cookie.includes('auth=1') ? 'LOGGED-IN' : 'GUEST';
-      </script>
-    `);
-    await expect(page.locator('#status')).toHaveText('LOGGED-IN');
+  await page.goto('https://playwright.dev');
+  await page.context().addCookies([{ name: 'auth', value: '1', domain: 'playwright.dev', path: '/' }]);
+  await page.reload();
+  const isLoggedIn = await page.evaluate(() => document.cookie.includes('auth=1'));
+  expect(isLoggedIn).toBe(true);
   });
 });
