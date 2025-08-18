@@ -15,9 +15,10 @@ test('smart locators and auto-wait', async ({ page }) => {
   `);
 
   await page.getByLabel('Email').fill('tester@example.com');
-  await page.getByPlaceholder('you@example.com').press('Enter');
 
   const button = page.getByTestId('submitBtn');
+    const buttonCount = await page.locator('[data-testid="submitBtn"]').count();
+    console.log('Number of submitBtn buttons found:', buttonCount);
   await expect(button).toBeVisible();
   await button.click();
 
