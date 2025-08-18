@@ -18,8 +18,7 @@ test('handle dialogs and interact with iframe', async ({ page }) => {
   });
   await page.click('#alert');
 
-  const frame = page.frame({ name: undefined, url: /./ }); // first iframe
-  const input = frame!.locator('#inner');
+  const input = page.frameLocator('#f').locator('#inner');
   await expect(input).toHaveValue('hi');
   await input.fill('from parent');
   await expect(input).toHaveValue('from parent');

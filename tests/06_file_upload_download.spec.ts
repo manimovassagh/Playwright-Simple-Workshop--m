@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test';
+import * as fs from 'fs';
 /**
  * File upload + download:
  * - setInputFiles to upload
@@ -19,13 +20,8 @@ test('upload and download files', async ({ page }, testInfo) => {
 
   // Create a temp file to upload
   const filePath = testInfo.outputPath('note.txt');
-  await testInfo.attach('upload-content', { body: 'Sample upload content' });
-  await page.context().addCookies([]); // no-op; just to show context exists
-  await page.evaluate(async (name) => {
-    // Create file in the DOM-only flow (demo-friendly). In real tests, pass a real path.
-  }, 'note.txt');
-
-
+  fs.writeFileSync(filePath, 'Sample upload content');
+  await page.setInputFiles('#u', filePath);
   await expect(page.locator('#out')).toHaveText('note.txt');
 
   // Download
