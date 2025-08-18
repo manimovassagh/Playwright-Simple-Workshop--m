@@ -17,7 +17,7 @@ test('basic navigation & assertions', async ({ page }) => {
   await expect(page.locator('h1')).toHaveText('Welcome');
 
   await page.getByRole('link', { name: /more info/i }).click();
-    console.log('Current URL after click:', page.url());
+  console.log('Current URL after click:', page.url());
   await expect(page).toHaveURL(/example\.com/);
 
   await page.screenshot({ path: 'screenshots/01_basic.png', fullPage: true });
