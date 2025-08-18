@@ -25,3 +25,12 @@
 - **Inconsistent parallelism** & slower CI feedback loops  
 - **Stronger GUI/desktop coverage** (Ranorex) and **keyword-driven** options (Robot)  
 - **Huge community & language breadth** (Selenium)  
+# Introduction to Playwright
+
+- 🚀 Developed by Microsoft (since 2020)  
+- 🌍 Open-source, modern **end-to-end testing framework**  
+- 🖥️ Supports **all major browsers**: Chromium, Firefox, WebKit  
+- 📱 Built-in **mobile emulation** for Android & iOS  
+- ⚡ **Fast, reliable, auto-waiting** for stable tests  
+- 🧰 Rich built-in features: test runner, fixtures, trace viewer, screenshots, videos  
+- 🔗 Multi-language support: TypeScript/JavaScript, Python, Java, .NET  
