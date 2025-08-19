@@ -5,9 +5,9 @@ export default defineConfig({
   globalSetup: require.resolve('./global-setup.js'),
   reporter: [['list'], ['html', { outputFolder: 'playwright-report' }]],
   use: {
-    trace: 'on-first-retry',
+    trace: 'on',
     screenshot: 'only-on-failure',
-    video: 'retain-on-failure',
+    video: 'on',
   },
   projects: [
     { name: 'chromium', use: { ...devices['Desktop Chrome'] } },
