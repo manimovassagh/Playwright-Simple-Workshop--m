@@ -1,12 +1,5 @@
 import { test, expect } from '@playwright/test';
 
-/**
- * Core basics:
- * - open a page
- * - assert title/text
- * - click a link
- * - take a screenshot
- */
 test('basic navigation & assertions', async ({ page }) => {
   await page.setContent(`
     <h1>Welcome</h1>
