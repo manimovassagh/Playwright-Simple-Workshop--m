@@ -13,7 +13,7 @@ test('basic navigation & assertions', async ({ page }) => {
     <a id="more" href="https://example.com">More info</a>
   `);
 
-  await expect(page).toHaveTitle(''); // empty because we used setContent (no <title>)
+  await expect(page).toHaveTitle('');
   await expect(page.locator('h1')).toHaveText('Welcome');
 
   await page.getByRole('link', { name: /more info/i }).click();
