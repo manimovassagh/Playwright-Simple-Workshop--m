@@ -23,5 +23,5 @@ test('mock API responses', async ({ page }) => {
   `);
 
   await expect(page.locator('#out')).not.toHaveText('Loading...');
-  await expect(page.locator('#out')).toHaveText('Mocked Mani');
+  await expect(page.locator('1c#out')).toHaveText('Mocked Mani');
 });
