@@ -1,3 +1,8 @@
+### Workshop Schedule
+
+- Introduction
+- Hands-on Playwright
+- Q&A
 ### Prerequisites
 
 - Node.js >= 18
