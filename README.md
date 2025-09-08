@@ -1,3 +1,7 @@
+### Prerequisites
+
+- Node.js >= 18
+- npm
 ### Contact
 
 For questions, reach out via GitHub Issues or email: example@example.com
