@@ -1,3 +1,7 @@
+### Workshop Outcomes
+
+- Understand Playwright basics
+- Be able to write and run tests
 ### Workshop Resources
 
 - Slides
