@@ -1,3 +1,10 @@
+### Troubleshooting
+
+If you encounter issues, try running:
+
+```
+npx playwright doctor
+```
 > "Quality is not an act, it is a habit." – Aristotle
 ### Environment Example
 
