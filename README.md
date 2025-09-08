@@ -1,3 +1,7 @@
+### Future Improvements
+
+- Add more test scenarios
+- Integrate CI/CD workflows
 ### Acknowledgements
 
 Thanks to the Playwright team and contributors for their amazing work!
