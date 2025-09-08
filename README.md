@@ -1,3 +1,4 @@
+> "Quality is not an act, it is a habit." – Aristotle
 ### Environment Example
 
 Create a `.env` file with your secrets:
