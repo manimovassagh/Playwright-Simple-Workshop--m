@@ -1,3 +1,6 @@
+### Contact
+
+For questions, reach out via GitHub Issues or email: example@example.com
 ### Future Improvements
 
 - Add more test scenarios
