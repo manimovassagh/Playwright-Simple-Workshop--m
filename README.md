@@ -1,3 +1,7 @@
+### Useful Links
+
+- [Playwright Docs](https://playwright.dev/docs/intro)
+- [Playwright GitHub](https://github.com/microsoft/playwright)
 ### Troubleshooting
 
 If you encounter issues, try running:
