@@ -1,3 +1,6 @@
+### Acknowledgements
+
+Thanks to the Playwright team and contributors for their amazing work!
 ### License
 
 MIT
