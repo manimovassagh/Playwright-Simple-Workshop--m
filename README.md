@@ -1,3 +1,6 @@
+### Feedback
+
+Your feedback is valuable! Please share your thoughts after the workshop.
 ### Workshop Schedule
 
 - Introduction
