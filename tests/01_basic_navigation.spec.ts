@@ -1,3 +1,4 @@
+// This test checks basic navigation and assertions using Playwright.
 import { test, expect } from '@playwright/test';
 
 test('basic navigation & assertions', async ({ page }) => {

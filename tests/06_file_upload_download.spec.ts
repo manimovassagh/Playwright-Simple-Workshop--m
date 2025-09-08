@@ -1,3 +1,4 @@
+// Test file upload and download functionality.
 import { test, expect } from '@playwright/test';
 import * as fs from 'fs';
 /**

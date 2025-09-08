@@ -1,3 +1,4 @@
+// Test mobile emulation and responsive layout.
 import { test, expect } from '@playwright/test';
 
 /**

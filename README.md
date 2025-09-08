@@ -1,3 +1,13 @@
+### Environment Example
+
+Create a `.env` file with your secrets:
+
+```
+API_KEY=your_api_key_here
+```
+## Playwright Simple Workshop
+
+This project demonstrates Playwright testing with practical examples and best practices.
 # 🎭 Playwright Demo Suite
 
 This project contains **sample Playwright tests** in **TypeScript**, showcasing the **core functionality** of the framework.  

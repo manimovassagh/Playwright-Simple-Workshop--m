@@ -1,3 +1,4 @@
+// Test assertions for element states (enabled, visible, etc).
 import { test, expect } from '@playwright/test';
 
 /**

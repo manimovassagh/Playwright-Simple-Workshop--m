@@ -1,3 +1,4 @@
+// Test tracing and adding attachments to Playwright reports.
 import { test, expect } from '@playwright/test';
 
 /**

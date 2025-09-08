@@ -1,3 +1,4 @@
+> Tip: Use `npx playwright show-trace <trace.zip>` to debug your tests visually.
 # Basic Functionality of Playwright
 
 ```ts

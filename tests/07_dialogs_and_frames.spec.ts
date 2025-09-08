@@ -1,3 +1,4 @@
+// Test handling dialogs and interacting with iframes.
 import { test, expect } from '@playwright/test';
 
 /**

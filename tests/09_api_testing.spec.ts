@@ -1,3 +1,4 @@
+// Test API requests and responses using Playwright.
 import { test, expect } from '@playwright/test';
 
 /**

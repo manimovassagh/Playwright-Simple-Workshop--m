@@ -1,3 +1,4 @@
+// Test network interception and API response mocking.
 import { test, expect } from '@playwright/test';
 
 /**

@@ -1,3 +1,4 @@
+// Test accessibility and ARIA role-based locators.
 import { test, expect } from '@playwright/test';
 
 /**
