@@ -1,3 +1,10 @@
+### How to Run Tests
+
+Run all tests with:
+
+```
+npx playwright test
+```
 ### Project Goals
 
 - Demonstrate Playwright basics
