@@ -1,3 +1,8 @@
+### Project Goals
+
+- Demonstrate Playwright basics
+- Show best practices for testing
+- Provide hands-on examples
 ### Useful Links
 
 - [Playwright Docs](https://playwright.dev/docs/intro)
