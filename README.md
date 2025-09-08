@@ -1,3 +1,6 @@
+### Contributing
+
+Feel free to open issues or submit pull requests to improve this workshop!
 ### How to Run Tests
 
 Run all tests with:
