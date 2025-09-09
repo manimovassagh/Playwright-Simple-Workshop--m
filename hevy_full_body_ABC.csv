@@ -1,0 +1,25 @@
+Day,Order,Exercise (Hevy name),Sets,Reps,Weight_kg,Rest_s,Notes
+Day 1 (Full Body A),1,Bench Press (Dumbbell),4,8-10,10-12 per DB,90,
+Day 1 (Full Body A),2,One Arm Row (Dumbbell),4,8-10,12-14 per DB,90,Each side
+Day 1 (Full Body A),3,Shoulder Press (Dumbbell),3,10-12,8-10 per DB,75,
+Day 1 (Full Body A),4,Goblet Squat (Dumbbell),4,10-12,16-18 (single DB),90,
+Day 1 (Full Body A),5,Romanian Deadlift (Dumbbell),3,8-10,12-14 per DB,90,
+Day 1 (Full Body A),6,Biceps Curl (Dumbbell),3,12-15,6-8 per DB,60,
+Day 1 (Full Body A),7,Triceps Extension (Dumbbell),3,12-15,8-10 (single DB),60,"Overhead, 2 hands"
+Day 1 (Full Body A),8,Plank (Bodyweight),3,30-60s,,60,
+Day 2 (Full Body B),1,Incline Bench Press (Dumbbell),4,8-10,8-10 per DB,90,
+Day 2 (Full Body B),2,Deadlift (Dumbbell),4,8-10,12-14 per DB,90,
+Day 2 (Full Body B),3,Lateral Raise (Dumbbell),3,12-15,4-6 per DB,60,
+Day 2 (Full Body B),4,Bulgarian Split Squat (Dumbbell),3,10-12,8-10 per DB,90,Each leg
+Day 2 (Full Body B),5,"Row (Dumbbell, Chest Supported)",3,8-10,10-12 per DB,75,If not found: Dumbbell Row (Incline Bench)
+Day 2 (Full Body B),6,Hammer Curl (Dumbbell),3,12-15,6-8 per DB,60,
+Day 2 (Full Body B),7,Kickback (Dumbbell),3,12-15,4-6 per DB,60,
+Day 2 (Full Body B),8,Leg Raise (Hanging or Lying),3,10-15,,60,
+Day 3 (Full Body C),1,Floor Press (Dumbbell),4,8-10,10-12 per DB,90,
+Day 3 (Full Body C),2,Squat (Dumbbell),4,10-12,10-12 per DB,90,Front variation (dumbbells on shoulders)
+Day 3 (Full Body C),3,Arnold Press (Dumbbell),3,8-10,8-10 per DB,75,
+Day 3 (Full Body C),4,Romanian Deadlift (Dumbbell),3,10-12,10-12 per DB,90,Add shrug at top
+Day 3 (Full Body C),5,Renegade Row (Dumbbell),3,8-10,6-8 per DB,75,
+Day 3 (Full Body C),6,Concentration Curl (Dumbbell),3,12-15,6-8,60,Each arm
+Day 3 (Full Body C),7,Triceps Extension (Dumbbell),3,12-15,8-10 (single DB),60,"Overhead, 2 hands"
+Day 3 (Full Body C),8,Russian Twist (Bodyweight),3,16-20,6-8 (hold DB),45,Per side count = half total
