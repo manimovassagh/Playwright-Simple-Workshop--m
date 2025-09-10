@@ -1,3 +1,4 @@
+// Using global setup for storage state
 // Using list and html reporters for test results
 // Using Desktop Chrome device for tests
 // Traces and videos are recorded for every test run
