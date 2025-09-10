@@ -1,3 +1,4 @@
+// Checks if the font is both pretty and long enough
 // Checks if the font name is long enough
 // Checks if the font name contains a pretty keyword
 // Imports for font checking utilities
