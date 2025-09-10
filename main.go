@@ -1,3 +1,4 @@
+// Checks if the font name contains a pretty keyword
 // Imports for font checking utilities
 // Simple Go utilities for font checking
 package main
