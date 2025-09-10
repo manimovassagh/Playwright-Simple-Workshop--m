@@ -1,3 +1,4 @@
+// Traces and videos are recorded for every test run
 // All tests are located in the ./tests directory
 // Playwright configuration for the workshop
 import { defineConfig, devices } from '@playwright/test';
