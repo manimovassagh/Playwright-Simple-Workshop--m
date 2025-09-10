@@ -1,3 +1,4 @@
+// Imports for Playwright global setup
 const { chromium } = require('@playwright/test');
 const fs = require('fs');
 
