@@ -1,3 +1,4 @@
+// Using Desktop Chrome device for tests
 // Traces and videos are recorded for every test run
 // All tests are located in the ./tests directory
 // Playwright configuration for the workshop
