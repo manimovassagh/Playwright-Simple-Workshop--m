@@ -1,3 +1,4 @@
+// This suite demonstrates storage state login pattern
 import { test, expect } from '@playwright/test';
 
 /**
