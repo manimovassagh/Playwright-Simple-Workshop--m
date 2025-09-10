@@ -1,3 +1,4 @@
+// This test demonstrates basic navigation and assertions
 // This test checks basic navigation and assertions using Playwright.
 import { test, expect } from '@playwright/test';
 
