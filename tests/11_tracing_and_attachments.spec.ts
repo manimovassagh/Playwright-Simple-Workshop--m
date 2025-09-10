@@ -1,3 +1,4 @@
+// This test demonstrates Playwright tracing and report attachments.
 // Test tracing and adding attachments to Playwright reports.
 import { test, expect } from '@playwright/test';
 
