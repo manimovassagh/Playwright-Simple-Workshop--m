@@ -1,3 +1,4 @@
+// Imports for font checking utilities
 // Simple Go utilities for font checking
 package main
 
