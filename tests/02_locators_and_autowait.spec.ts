@@ -1,3 +1,4 @@
+// This test demonstrates smart locators and auto-wait
 // Test smart locators and Playwright's auto-wait feature.
 import { test, expect } from '@playwright/test';
 
