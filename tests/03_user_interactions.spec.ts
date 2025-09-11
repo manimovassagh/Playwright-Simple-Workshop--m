@@ -1,3 +1,4 @@
+// This test demonstrates user interactions: click, type, hover, drag & drop
 // Test various user interactions: click, type, hover, drag & drop.
 import { test, expect } from '@playwright/test';
 
